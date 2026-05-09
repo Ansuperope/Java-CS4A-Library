@@ -20,6 +20,9 @@ on:
 
 jobs:
   update-readme:
+    # Hard disable: this job never executes unless someone changes this to true
+    if: ${{ false }}
+    
     runs-on: ubuntu-latest
 
     steps:
