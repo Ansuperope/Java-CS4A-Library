@@ -20,8 +20,6 @@ on:
 
 jobs:
   update-readme:
-    # Hard disable: this job never executes unless someone changes this to true
-    if: ${{ false }}
     
     runs-on: ubuntu-latest
 
@@ -34,7 +32,7 @@ jobs:
 
       - name: Download Google Doc
         run: |
-          curl -L "https://docs.google.com/document/d/LOREM/export?format=docx" -o doc.docx
+          curl -L "https://docs.google.com/document/d/1S7wikCdCtgCuBh5zNjVTLtCTcvq2VVlXYp7arrWfgyk/export?format=docx" -o doc.docx
           
       # html = formats it using html
       # gfm = github-flavored markdown 
@@ -45,8 +43,8 @@ jobs:
 
       - name: Add badges to top
         run: |
-          echo '[![Java CI](https://github.com/Ansuperope/Java-Project-2-Banking-System/actions/workflows/java.yml/badge.svg)](https://github.com/Ansuperope/Java-Project-2-Banking-System/actions/workflows/java.yml)' > temp.md
-          echo '[![Documentation](https://img.shields.io/badge/Documentation-Doxygen-blue?logo=doxygen)](https://ansuperope.github.io/Java-Project-2-Banking-System/)' >> temp.md
+          echo '[![Java CI](https://github.com/Ansuperope/Java-CS4A-Library/actions/workflows/java.yml/badge.svg)](https://github.com/Ansuperope/Java-CS4A-Library/actions/workflows/java.yml)' > temp.md
+          echo '[![Documentation](https://img.shields.io/badge/Documentation-Doxygen-blue?logo=doxygen)](https://ansuperope.github.io/Java-CS4A-Library/)' >> temp.md
           echo '' >> temp.md
           cat README.md >> temp.md
           mv temp.md README.md
