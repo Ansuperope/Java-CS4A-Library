@@ -32,21 +32,25 @@ public abstract class LibraryItem {
 
     /**
      * @brief getter for isCheckedOut
+     * @return if checked out (true or false)
      */
     public boolean getCheckedOut() { return isCheckedOut; } 
 
     /**
      * @brief getter for name
+     * @return name
      */
     public String getName() { return name; }
 
     /**
      * @brief getter for returnDate
+     * @return return date
      */
     public String getReturnDate() { return returnDate; }
 
     /**
      * @brief getter for checkedOutName
+     * @return name of who checked it out
      */
     public String getCheckedOutName() { return checkedOutName; }
 
@@ -68,5 +72,4 @@ public abstract class LibraryItem {
         returnDate = "";
     } // END returnItem
     
-
 } // END class LibraryItem

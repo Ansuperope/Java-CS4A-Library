@@ -24,5 +24,4 @@ public class Magazine extends LibraryItem {
         this.mainArticle = article;
     } // END Magazine / constructor
 
-    
 } // END class Magazine
