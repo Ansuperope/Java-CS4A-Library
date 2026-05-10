@@ -50,4 +50,23 @@ public abstract class LibraryItem {
      */
     public String getCheckedOutName() { return checkedOutName; }
 
+    /**
+     * @brief setter for checking out an item
+     */
+    public void checkOutItem(String person, String date) {
+        isCheckedOut = true;
+        checkedOutName = person;
+        returnDate = date;
+    } // END checkOutItem
+
+    /**
+     * @brief setter for returning an item
+     */
+    public void returnItem() {
+        isCheckedOut = false;
+        checkedOutName = "";
+        returnDate = "";
+    } // END returnItem
+    
+
 } // END class LibraryItem
