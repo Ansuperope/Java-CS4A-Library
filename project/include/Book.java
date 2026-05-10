@@ -6,6 +6,6 @@
 package project.include;
 import project.include.LibraryItem;
 
-public class Magazine extends LibraryItem {
+// public class Book extends LibraryItem {
     
-}
+// } // END class Book
