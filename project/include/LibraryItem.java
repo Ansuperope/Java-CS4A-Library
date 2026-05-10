@@ -1,10 +1,53 @@
 /**
  * @file LiraryItem.java
  * 
- * Abstract base class
+ * Abstract base class. No destructor since java does it automatically
  */
 package project.include;
 
 public abstract class LibraryItem {
+    private int idCount;            // number of objects made?
+    
+    protected String name;            // item name
+    protected String description;     // item description
+    protected int id;                 // item id (like isbn?)
+    protected boolean isCheckedOut;   // if item was checked out
+    protected String checkedOutName;  // who checked out item
+    protected String returnDate;      // date to return item
+    
+    /**
+     * @brief constructor
+     * 
+     * @param nm name of item
+     * @param desc item description
+     */
+    LibraryItem(String nm, String desc) {
+        this.name = nm;
+        this.description = desc;
+        this.id = idCount++;
+        this.isCheckedOut = false;
+        this.checkedOutName = "";
+        this.returnDate = "";
+    } // END constructor
 
-}
+    /**
+     * @brief getter for isCheckedOut
+     */
+    public boolean getCheckedOut() { return isCheckedOut; } 
+
+    /**
+     * @brief getter for name
+     */
+    public String getName() { return name; }
+
+    /**
+     * @brief getter for returnDate
+     */
+    public String getReturnDate() { return returnDate; }
+
+    /**
+     * @brief getter for checkedOutName
+     */
+    public String getCheckedOutName() { return checkedOutName; }
+
+} // END class LibraryItem
