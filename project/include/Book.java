@@ -25,5 +25,28 @@ public class Book extends LibraryItem {
         this.author = a;
         this.copyrightDate = cd;
     } // END Book / constructor
+
+    /**
+     * @brief printing item contents
+     */
+    @Override
+    public String toString() {
+        String output =
+            "Book Title: "   + title + "\n" +
+            "Author: "       + author + "\n" +
+            "Copyright: "    + copyrightDate + "\n" +
+            "Description: "  + this.description + "\n" +
+            "ID: "           + this.id + "\n" +
+            "Checked Out?: " + (this.isCheckedOut ? "Yes" : "No") + "\n";
+
+        // IF CHECKED OUT PRINT CHECKOUT INFO
+        if (this.isCheckedOut) {
+            output +=
+                "Checked Out By: "  + this.checkedOutName + "\n" +
+                "Return Date: "     + this.returnDate + "\n";
+        } // END if
+
+        return output;
+    } // END toString
     
 } // END class Book
