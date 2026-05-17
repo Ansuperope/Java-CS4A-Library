@@ -19,7 +19,7 @@ public class Book extends LibraryItem {
      * @param cd copyright date
      * @param desc description
      */
-    Book(String t, String a, String cd, String desc) {
+    public Book(String t, String a, String cd, String desc) {
         super(t, desc);
         this.title = t;
         this.author = a;

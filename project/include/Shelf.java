@@ -12,7 +12,7 @@ public class Shelf {
     /*******************************************************************
      * @brief constructor
      ******************************************************************/
-    Shelf (Compartment[] inRow) {
+    public Shelf (Compartment[] inRow) {
         this.row = inRow;
     } // END Shelf / constructor
 

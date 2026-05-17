@@ -8,22 +8,41 @@
 package project;
 
 // Include files from other folders
-import project.include.Book;
 import project.include.Compartment;
-// import project.include.Library;
+import project.include.Library;
 import project.include.LibraryItem;
-import project.include.Magazine;
+import project.include.Shelf;
+// Derived class
+import project.include.Book;
 import project.include.Movie;
-// import project.include.Shelf;
+import project.include.Magazine;
 
 public class Main {
     public static void main(String[] args) {
         // Create Library object called libraryInventory
+        Library libraryInventory = new Library();
 
-        // Create a Book, Movie and Magazine object
+        // Create a Book object
+        LibraryItem book1 = new Book("To Kill a Mockingbird", 
+            "Harper Lee", 
+            "July 11, 1960", 
+            "A novel that explores the themes of racial inequality, class and society, loss of innocence, and gender roles.");
+	    
+        // Create a Movie object
+        LibraryItem movie1 = new Movie("The Force Awakens", 
+            "J.J. Abrams", 
+            "Daisy Ridley, John Boyega, Harrison Ford, Adam Driver", 
+            "The seventh Star Wars movie, set thirty years after the Return of the Jedi.");
+
+        // Create a Magazine object
+        LibraryItem magazine1 = new Magazine(1, 
+            "30 under 30", 
+            "Forbes", 
+            "A magazine by Forbes, showcasing 30 people under 30 years of age making advancements in their fields.");
         
         // Print current library libraryInventory
         System.out.println("Printing current library inventory with no items: ");
+        System.out.println(libraryInventory);
 
         // Add object book1 to Library at Shelf 1, Compartment 1
 

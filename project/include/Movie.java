@@ -19,7 +19,7 @@ public class Movie extends LibraryItem {
      * @param actors main actors
      * @param desc description
      */
-    Movie (String t, String d, String actors, String desc) {
+    public Movie (String t, String d, String actors, String desc) {
         super(t, desc);
         this.title = t;
         this.director = d;

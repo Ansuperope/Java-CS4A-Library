@@ -18,7 +18,7 @@ public class Magazine extends LibraryItem {
      * @param nm name
      * @param desc description
      */
-    Magazine (int ed, String article, String nm, String desc) {
+    public Magazine (int ed, String article, String nm, String desc) {
         super(nm, desc);
         this.edition = ed;
         this.mainArticle = article;
