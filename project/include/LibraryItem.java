@@ -71,5 +71,15 @@ public abstract class LibraryItem {
         checkedOutName = "";
         returnDate = "";
     } // END returnItem
+
+    /**
+     * @brief printing item contents
+     */
+    @Override
+    public String toString() {
+        return "Name: " + name + "\n" +
+                "Description: " + description + "\n" +
+                "ID: " + id + "\n";
+    } // END toString()
     
 } // END class LibraryItem
