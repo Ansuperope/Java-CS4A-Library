@@ -148,5 +148,20 @@ public class Main {
         System.out.println("\nChecking out a book: ");
         libraryInventory.getShelf(0).getComp(0).checkoutItem("Christian Metoyer", "11/30/25");
 
+        //Printing the current library inventory
+        System.out.println("\nPrinting current library inventory with 1 checked-in, 1 checked-out item:");
+        System.out.println(libraryInventory.printLibrary());
+        System.out.println(libraryInventory.printCheckedOutItems());
+
+        //Checking out movie1
+        System.out.println("\nChecking out a movie: ");
+        libraryInventory.getShelf(9).getComp(14).checkoutItem("UC Irvine", "12/31/25");
+
+        
+        //Printing the current library inventory
+        System.out.println("\nPrinting current library inventory with 2 checked-out item:");
+        System.out.println(libraryInventory.printLibrary());
+        System.out.println(libraryInventory.printCheckedOutItems());
+
     } // END static main()
 } // END class Main
