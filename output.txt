@@ -1,0 +1,404 @@
+Printing current library inventory with no items: 
+Shelf 0:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 1:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 2:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 3:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 4:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 5:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 6:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 7:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 8:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+Shelf 9:
+  Compartment 0: [EMPTY]
+  Compartment 1: [EMPTY]
+  Compartment 2: [EMPTY]
+  Compartment 3: [EMPTY]
+  Compartment 4: [EMPTY]
+  Compartment 5: [EMPTY]
+  Compartment 6: [EMPTY]
+  Compartment 7: [EMPTY]
+  Compartment 8: [EMPTY]
+  Compartment 9: [EMPTY]
+  Compartment 10: [EMPTY]
+  Compartment 11: [EMPTY]
+  Compartment 12: [EMPTY]
+  Compartment 13: [EMPTY]
+  Compartment 14: [EMPTY]
+
+
+Printing current library inventory checked out: 
+All items currently checked out:
+No items are currently checked out.
+
+Testing edge cases for adding items:
+
+Invalid shelf (-1): 
+Shelf index must be between 0 and 9: -1
+
+Invalid compartment (-1): 
+Shelf index must be between 0 and 14: -1
+
+Invalid shelf (-2) and compartment (-2): 
+Shelf index must be between 0 and 9: -2
+
+Invalid shelf (10): 
+Shelf index must be between 0 and 9: 10
+
+Invalid compartment (15): 
+Shelf index must be between 0 and 14: 15
+
+Invalid shelf (11) and compartment (16): 
+Shelf index must be between 0 and 9: 11
+
+Printing current library inventory with 2 checked-in items: 
+All items currently checked into storage:
+Shelf 0, Compartment 0
+Book Title: To Kill a Mockingbird
+Author: Harper Lee
+Copyright: July 11, 1960
+Description: A novel that explores the themes of racial inequality, class and society, loss of innocence, and gender roles.
+ID: 0
+Checked Out?: No
+
+-----------------------------
+Shelf 9, Compartment 14
+Movie Title: The Force Awakens
+Director: J.J. Abrams
+Main Actors: Daisy Ridley, John Boyega, Harrison Ford, Adam Driver
+Description: The seventh Star Wars movie, set thirty years after the Return of the Jedi.
+ID: 0
+Checked Out?: No
+
+-----------------------------
+
+All items currently checked out:
+No items are currently checked out.
+
+
+Checking out items using invalid shelf/compartment values:
+
+Shelf index must be between 0 and 9: -1
+Shelf index must be between 0 and 14: -1
+Shelf index must be between 0 and 9: -2
+Shelf index must be between 0 and 9: 10
+Shelf index must be between 0 and 14: 15
+Shelf index must be between 0 and 9: 11
+
+Checking out a book: 
+To Kill a Mockingbird successfully checked out.
+
+Printing current library inventory with 1 checked-in, 1 checked-out item:
+All items currently checked into storage:
+Shelf 0, Compartment 0
+Book Title: To Kill a Mockingbird
+Author: Harper Lee
+Copyright: July 11, 1960
+Description: A novel that explores the themes of racial inequality, class and society, loss of innocence, and gender roles.
+ID: 0
+Checked Out?: Yes
+Checked Out By: Christian Metoyer
+Return Date: 11/30/25
+
+-----------------------------
+Shelf 9, Compartment 14
+Movie Title: The Force Awakens
+Director: J.J. Abrams
+Main Actors: Daisy Ridley, John Boyega, Harrison Ford, Adam Driver
+Description: The seventh Star Wars movie, set thirty years after the Return of the Jedi.
+ID: 0
+Checked Out?: No
+
+-----------------------------
+
+All items currently checked out:
+Shelf 0, Compartment 0
+Name: To Kill a Mockingbird
+Checked Out By: Christian Metoyer
+Return Date: 11/30/25
+-----------------------------
+
+
+Checking out a movie: 
+The Force Awakens successfully checked out.
+
+Printing current library inventory with 2 checked-out item:
+All items currently checked into storage:
+Shelf 0, Compartment 0
+Book Title: To Kill a Mockingbird
+Author: Harper Lee
+Copyright: July 11, 1960
+Description: A novel that explores the themes of racial inequality, class and society, loss of innocence, and gender roles.
+ID: 0
+Checked Out?: Yes
+Checked Out By: Christian Metoyer
+Return Date: 11/30/25
+
+-----------------------------
+Shelf 9, Compartment 14
+Movie Title: The Force Awakens
+Director: J.J. Abrams
+Main Actors: Daisy Ridley, John Boyega, Harrison Ford, Adam Driver
+Description: The seventh Star Wars movie, set thirty years after the Return of the Jedi.
+ID: 0
+Checked Out?: Yes
+Checked Out By: UC Irvine
+Return Date: 12/31/25
+
+-----------------------------
+
+All items currently checked out:
+Shelf 0, Compartment 0
+Name: To Kill a Mockingbird
+Checked Out By: Christian Metoyer
+Return Date: 11/30/25
+-----------------------------
+Shelf 9, Compartment 14
+Name: The Force Awakens
+Checked Out By: UC Irvine
+Return Date: 12/31/25
+-----------------------------
+
+
+Testing edge cases for returning items:
+
+Shelf index must be between 0 and 9: -1
+Shelf index must be between 0 and 14: -1
+Shelf index must be between 0 and 9: -2
+Shelf index must be between 0 and 9: 10
+Shelf index must be between 0 and 14: 15
+Shelf index must be between 0 and 9: 11
+
+Returning a book:
+
+To Kill a Mockingbird successfully returned.
+Printing current library inventory with 1 checked-in, 1 checked-out item:
+All items currently checked into storage:
+Shelf 0, Compartment 0
+Book Title: To Kill a Mockingbird
+Author: Harper Lee
+Copyright: July 11, 1960
+Description: A novel that explores the themes of racial inequality, class and society, loss of innocence, and gender roles.
+ID: 0
+Checked Out?: No
+
+-----------------------------
+Shelf 9, Compartment 14
+Movie Title: The Force Awakens
+Director: J.J. Abrams
+Main Actors: Daisy Ridley, John Boyega, Harrison Ford, Adam Driver
+Description: The seventh Star Wars movie, set thirty years after the Return of the Jedi.
+ID: 0
+Checked Out?: Yes
+Checked Out By: UC Irvine
+Return Date: 12/31/25
+
+-----------------------------
+
+All items currently checked out:
+Shelf 9, Compartment 14
+Name: The Force Awakens
+Checked Out By: UC Irvine
+Return Date: 12/31/25
+-----------------------------
+
+Attempting swap with one item not in inventory:
+Error: Cannot swap The Force Awakens as it is checked out.
+
+Returning a movie:
+The Force Awakens successfully returned.
+Printing current library inventory with 2 checked-in items:
+All items currently checked into storage:
+Shelf 0, Compartment 0
+Book Title: To Kill a Mockingbird
+Author: Harper Lee
+Copyright: July 11, 1960
+Description: A novel that explores the themes of racial inequality, class and society, loss of innocence, and gender roles.
+ID: 0
+Checked Out?: No
+
+-----------------------------
+Shelf 9, Compartment 14
+Movie Title: The Force Awakens
+Director: J.J. Abrams
+Main Actors: Daisy Ridley, John Boyega, Harrison Ford, Adam Driver
+Description: The seventh Star Wars movie, set thirty years after the Return of the Jedi.
+ID: 0
+Checked Out?: No
+
+-----------------------------
+
+All items currently checked out:
+No items are currently checked out.
+
+Returning an item that already has been returned:
+Error! Item is not checked out.
+Swapping two items:
+Items swapped successfully.
+Printing current library inventory with 2 checked-in items:
+All items currently checked into storage:
+Shelf 0, Compartment 0
+Movie Title: The Force Awakens
+Director: J.J. Abrams
+Main Actors: Daisy Ridley, John Boyega, Harrison Ford, Adam Driver
+Description: The seventh Star Wars movie, set thirty years after the Return of the Jedi.
+ID: 0
+Checked Out?: No
+
+-----------------------------
+Shelf 9, Compartment 14
+Book Title: To Kill a Mockingbird
+Author: Harper Lee
+Copyright: July 11, 1960
+Description: A novel that explores the themes of racial inequality, class and society, loss of innocence, and gender roles.
+ID: 0
+Checked Out?: No
+
+-----------------------------
+
+All items currently checked out:
+No items are currently checked out.
+

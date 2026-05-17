@@ -17,8 +17,22 @@ import project.include.Book;
 import project.include.Movie;
 import project.include.Magazine;
 
+// Print output to txt file
+import java.io.PrintStream;
+import java.io.FileNotFoundException;
+
 public class Main {
     public static void main(String[] args) {
+
+        // Redirect System.out to print to a txt file
+        try {
+            PrintStream fileOut = new PrintStream("output.txt");
+            System.setOut(fileOut);
+
+        } catch (FileNotFoundException e) {
+            System.out.println("Error creating output file.");
+        }
+
         // Create Library object called libraryInventory
         Library libraryInventory = new Library();
 
@@ -208,6 +222,34 @@ public class Main {
 
         //Printing the current library inventory
         System.out.println("Printing current library inventory with 1 checked-in, 1 checked-out item:");
+        System.out.println(libraryInventory.printLibrary());
+        System.out.println(libraryInventory.printCheckedOutItems());
+
+        //Attempting to swap two items when one isn't in the library
+        System.out.println("Attempting swap with one item not in inventory:");
+        libraryInventory.swap(libraryInventory.getShelf(0).getComp(0),
+                              libraryInventory.getShelf(9).getComp(14));
+
+        //Returning movie1
+        System.out.println("\nReturning a movie:");
+        libraryInventory.getShelf(9).getComp(14).returnItem();
+
+        //Printing the current library inventory
+        System.out.println("Printing current library inventory with 2 checked-in items:");
+        System.out.println(libraryInventory.printLibrary());
+        System.out.println(libraryInventory.printCheckedOutItems());
+
+        //Returning an item that already has been returned
+        System.out.println("Returning an item that already has been returned:");
+        libraryInventory.getShelf(0).getComp(0).returnItem();
+
+        // Swapping two items when both are present
+        System.out.println("Swapping two items:");
+        libraryInventory.swap(libraryInventory.getShelf(0).getComp(0),
+                              libraryInventory.getShelf(9).getComp(14));
+
+        // Printing the current library inventory; book1 and movie1 have swapped locations
+        System.out.println("Printing current library inventory with 2 checked-in items:");
         System.out.println(libraryInventory.printLibrary());
         System.out.println(libraryInventory.printCheckedOutItems());
     } // END static main()
