@@ -44,13 +44,62 @@ public class Main {
         System.out.println("Printing current library inventory with no items: ");
         System.out.println(libraryInventory);
 
+        // Print Checked out items from library libraryInventory
+        System.out.println("Printing current library inventory checked out: ");
+        System.out.println(libraryInventory.printCheckedOutItems());
+
         // Add object book1 to Library at Shelf 1, Compartment 1
+        libraryInventory.getShelf(0).getComp(0).addItem(book1);
 
         // Adding the object movie1 to the Library at Shelf 9, Compartment 14
+        libraryInventory.getShelf(9).getComp(14).addItem(movie1);
 
         // Testing edge cases using magazine1
 	    // Shelf accepts values ranging from 0-9, Compartment accepts values ranging from 0-14
-        System.out.println("Testing edge cases for adding items: ");
+        System.out.println("Testing edge cases for adding items:\n");
+
+        try {
+            System.out.println("Invalid shelf (-1): ");
+            libraryInventory.getShelf(-1).getComp(0).addItem(magazine1);
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            System.out.println("\nInvalid compartment (-1): ");
+            libraryInventory.getShelf(0).getComp(-1).addItem(magazine1);
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            System.out.println("\nInvalid shelf (-2) and compartment (-2): ");
+            libraryInventory.getShelf(-2).getComp(-2).addItem(magazine1);
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            System.out.println("\nInvalid shelf (10): ");
+            libraryInventory.getShelf(10).getComp(0).addItem(magazine1);
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            System.out.println("\nInvalid compartment (15): ");
+            libraryInventory.getShelf(0).getComp(15).addItem(magazine1);
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            System.out.println("\nInvalid shelf (11) and compartment (16): ");
+            libraryInventory.getShelf(11).getComp(16).addItem(magazine1);
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
 
         // Printing the current library inventory
         System.out.println("Printing current lirbary inventory with 2 checked-in items: ");

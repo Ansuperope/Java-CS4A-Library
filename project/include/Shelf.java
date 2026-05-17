@@ -20,20 +20,15 @@ public class Shelf {
      * @brief Returns a compartment at the given index
      * @param compartmentIndex index to check
      */
-    public Compartment get(int compartmentIndex) {
+    public Compartment getComp(int compartmentIndex) {
 
-        // Test for invalid compartment indexes
+        /***************************************************************
+         * Checking if entered shelf index is valid
+         **************************************************************/
         if (compartmentIndex < 0 || compartmentIndex >= 15) {
-
-            System.out.println("Error: Compartment index must be between 0 and 14. "
-                                + compartmentIndex + " is invalid.");
-
-            // Dummy compartment returned if invalid
-            Compartment invalidCompartmentIndex = new Compartment();
-            invalidCompartmentIndex.setPlaceholder();
-
-            return invalidCompartmentIndex;
-        } // END if
+            throw new IndexOutOfBoundsException("Shelf index must be between 0 and 14: " 
+                                                + compartmentIndex);
+        } // END if (compartmentIndex < 0 || compartmentIndex >= 10)
 
         // Valid
         return row[compartmentIndex];

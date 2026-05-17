@@ -232,8 +232,8 @@ public class Library {
          * Checking if entered shelf index is valid
          **************************************************************/
         if (shelfIndex < 0 || shelfIndex >= 10) {
-            System.out.println("Error: Shelf index must be between 0 and 9.");
-            return null;
+            throw new IndexOutOfBoundsException("Shelf index must be between 0 and 9: " 
+                                                + shelfIndex);
         } // END if (shelfIndex < 0 || shelfIndex >= 10)
 
         return new Shelf(shelves[shelfIndex]);
