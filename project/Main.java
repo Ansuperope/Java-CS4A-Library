@@ -163,5 +163,52 @@ public class Main {
         System.out.println(libraryInventory.printLibrary());
         System.out.println(libraryInventory.printCheckedOutItems());
 
+        //Returning an item using invalid shelf/compartment values
+        System.out.println("\nTesting edge cases for returning items:\n");
+
+        try {
+            libraryInventory.getShelf(-1).getComp(0).returnItem();
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(0).getComp(-1).returnItem();
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(-2).getComp(-2).returnItem();
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(10).getComp(0).returnItem();
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }        
+
+        try {
+            libraryInventory.getShelf(0).getComp(15).returnItem();
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(11).getComp(16).returnItem();
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        //Returning book1
+        System.out.println("\nReturning a book:\n");
+        libraryInventory.getShelf(0).getComp(0).returnItem();
+
+        //Printing the current library inventory
+        System.out.println("Printing current library inventory with 1 checked-in, 1 checked-out item:");
+        System.out.println(libraryInventory.printLibrary());
+        System.out.println(libraryInventory.printCheckedOutItems());
     } // END static main()
 } // END class Main
