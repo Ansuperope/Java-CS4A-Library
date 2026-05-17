@@ -57,11 +57,11 @@ public abstract class LibraryItem {
     /**
      * @brief setter for checking out an item
      */
-    public void checkOutItem(String person, String date) {
+    public void checkoutItem(String person, String date) {
         isCheckedOut = true;
         checkedOutName = person;
         returnDate = date;
-    } // END checkOutItem
+    } // END checkoutItem
 
     /**
      * @brief setter for returning an item

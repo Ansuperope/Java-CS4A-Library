@@ -75,7 +75,7 @@ public class Compartment {
      * @param person Person checking out item
      * @param date date of checkout
      */
-    public void checkOutItem (String person, String date) {
+    public void checkoutItem (String person, String date) {
         // CHECKS INDEX
         if (isPlaceholder) {
             return;
@@ -94,9 +94,9 @@ public class Compartment {
         } // END if
 
         // ALL TESTS PASSED - CHECK OUT ITEM
-        item.checkOutItem(person, date);
+        item.checkoutItem(person, date);
         System.out.println(item.getName() + " successfully checked out.");
-    } // END checkOutItem
+    } // END checkoutItem
 
     /**
      * @brief return item that was checked out

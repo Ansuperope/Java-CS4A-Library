@@ -100,10 +100,53 @@ public class Main {
             System.out.println(e.getMessage());
         }
 
-
         // Printing the current library inventory
-        System.out.println("Printing current lirbary inventory with 2 checked-in items: ");
+        System.out.println("\nPrinting current library inventory with 2 checked-in items: ");
+        System.out.println(libraryInventory.printLibrary());
+        System.out.println(libraryInventory.printCheckedOutItems());
 
+        //Checking out an item using invalid shelf/compartment values
+        System.out.println("\nChecking out items using invalid shelf/compartment values:\n");
+
+        try {
+            libraryInventory.getShelf(-1).getComp(0).checkoutItem("Matthew Contreras", "12/20/25");
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(0).getComp(-1).checkoutItem("Adam Zeidan", "12/25/25");
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(-2).getComp(-2).checkoutItem("Saddleback College", "12/30/25");
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(10).getComp(0).checkoutItem("Kevin Ford", "1/25/26");
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(0).getComp(15).checkoutItem("Timothy Nguyen", "1/10/26");
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        try {
+            libraryInventory.getShelf(11).getComp(16).checkoutItem("Irvine Valley College", "1/20/26");
+        } catch (IndexOutOfBoundsException e) {
+            System.out.println(e.getMessage());
+        }
+
+        //Checking out book1
+        System.out.println("\nChecking out a book: ");
+        libraryInventory.getShelf(0).getComp(0).checkoutItem("Christian Metoyer", "11/30/25");
 
     } // END static main()
 } // END class Main
